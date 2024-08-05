@@ -2,7 +2,7 @@
 title: OpenSatMap
 email: opensatmap@gmail.com
 description: "OpenSatMap: A Fine-grained High-resolution Satellite Dataset for Large-scale Map Construction"
-baseurl: ""
+baseurl: "https://yiguid.github.io/opensatmap/"
 url: "https://opensatmap.github.io/"
 twitter_username: opensatmap
 github_username:  opensatmap

@@ -1,6 +1,177 @@
 ---
 layout: default
 ---
+<section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">OpenSatMap: A Fine-grained High-resolution Satellite Dataset for
+              Large-scale Map Construction</h1>
+            <!-- <h2 class="title is-3">CVPR 2024</h2> -->
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=Gs22F0UAAAAJ&hl">Hongbo Zhao</a>*<sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://lue.fan/">Lue Fan</a>*<sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=iLOoUqIAAAAJ">Yuntao Chen</a>*<sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://haochen-wang409.github.io/">Haochen Wang</a>*<sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a>Yuran Yang</a>*<sup>3</sup>,
+              </span>
+              <span class="author-block">
+                <a>Xiaojuan Jin</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a>Yixin Zhang</a><sup>3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://people.ucas.edu.cn/~gfmeng">Gaofeng Meng</a><sup>1,2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://zhaoxiangzhang.net/">Zhaoxiang Zhang</a><sup>1,2</sup>,
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>CASIA &amp; UCAS,</span>
+              <span class="author-block"><sup>2</sup>CAIR, HKISI, CAS,</span>
+              <span class="author-block"><sup>3</sup>Tencent Maps, Tencent</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="" class="external-link button is-normal is-rounded is-dark"> <!-- TODO: update the link -->
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="" class="external-link button is-normal is-rounded is-dark">
+                    <!-- TODO: update the link -->
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://colab.research.google.com/github/bjzhb666/OpensatMap-demo" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <img src="https://main-educational.github.io/_images/logo_colab.png">
+                    </span>
+                    <span>Dataset Demo</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/bjzhb666/get_google_maps_image" class="external-link button is-normal is-rounded is-dark"> <!-- TODO: update the link -->
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Dataset Link. -->
+                <span class="link-block">
+                  <a href="https://drive.google.com/drive/folders/1zKs-GV2aNobLDl6E17hTqy2L_WpNPkSb?usp=sharing"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="far fa-images"></i>
+                    </span>
+                    <span>Data</span>
+                  </a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full-width is-centered">
+            <div class="content has-text-justified">
+              <img src="./static/images/figure1_black.jpg" width="100%">
+              <p>
+                <b>Demonstrations of OpenSatMap dataset.</b>
+                It contains high-resolution satellite images with fine-grained annotations, covering diverse geographic
+                locations and popular driving datasets.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </section>
+
+
+  <!-- <div id="toc"></div>
+  <ul>
+    TOC will be generated here -->
+  <!-- </ul> -->
+
+  <section>
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths is-centered">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <!-- <div class="content has-text-justified">
+            <img src="./static/images/WX20231125-133933@2x.png" width="100%"> -->
+            <!-- <p>
+            <b>Multiview visual forecasting and planning by world model.</b>
+            At time step \( T \), the world model imagines the multiple futures at \(T+K\), and finds it is safe to keep going straight at \(T\). Then the model realizes that the ego car will be too close to the front car according to the imagination of time step \(T + 2K\), so it decides to change to the left lane for a safe overtaking.
+          </p> -->
+            <!-- </div> -->
+            <p>
+              In this paper, we propose <b>OpenSatMap</b>, a fine-grained, high-resolution satellite dataset for
+              large-scale map construction.
+              Map construction is one of the foundations of the transportation industry, such as navigation and
+              autonomous driving.
+              Extracting road structures from satellite images is an efficient way to construct large-scale maps.
+              However, existing satellite datasets provide only coarse semantic-level labels with a relatively low
+              resolution (up to level 19), impeding the advancement of this field.
+              In contrast, the proposed <b>OpenSatMap</b> (1) has fine-grained instance-level annotations; (2) consists
+              of high-resolution images (level 20); (3) is currently the largest one of its kind; (4) collects data with
+              high diversity.
+              Moreover, <b>OpenSatMap</b> covers and aligns with the popular nuScenes dataset and Argoverse 2 dataset to
+              potentially advance autonomous driving technologies.
+              By publishing and maintaining the dataset, we provide a high-quality benchmark for satellite-based map
+              construction and downstream tasks like autonomous driving.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+    </div>
+  </section>
 
 <div class="home">
 
